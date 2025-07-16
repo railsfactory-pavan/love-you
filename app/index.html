@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Will You Be Mine, Annu?</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      color: #fff;
+    }
+
+    .card {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 50px 30px;
+      border-radius: 20px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      font-size: 3.2em;
+      margin-bottom: 20px;
+      color: #fff;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    p {
+      font-size: 1.3em;
+      line-height: 1.6;
+      color: #fff;
+      margin: 15px 0;
+    }
+
+    .hearts {
+      font-size: 2.5em;
+      animation: floatHearts 3s ease-in-out infinite;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #ff6ec7, 0 0 30px #ff6ec7;
+      }
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 40px #ff1493, 0 0 60px #ff1493;
+      }
+    }
+
+    @keyframes floatHearts {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="hearts">💘 💖 💗</div>
+    <h1>Will You Be Mine, Annu?</h1>
+    <p>From the moment I met you, everything changed.</p>
+    <p>You make my world brighter, my heart fuller, and my dreams more beautiful.</p>
+    <p>I don't want to imagine a day without you in it.</p>
+    <p><strong>Will you be the love of my life forever? ❤️</strong></p>
+    <div class="hearts">🌹 💍 💞</div>
+  </div>
+</body>
+</html>
